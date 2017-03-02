@@ -10,12 +10,12 @@
 
 # Detect Debian users running the script with "sh" instead of bash
 if readlink /proc/$$/exe | grep -qs "dash"; then
-	echo "Script ini perlu dijalankan dengan bash, tidak sh"
+	echo "1nK-9h0st-Script | Script ini perlu dijalankan dengan bash, tidak sh"
 	exit 1
 fi
 
 if [[ "$EUID" -ne 0 ]]; then
-	echo "1nK-9h0st-Script | Maaf, Harus root dlu bossqw ^_^"
+	echo "1nK-9h0st-Script | Maaf, Harus root dulu bossqw ^_^"
 	exit 2
 fi
 
@@ -25,7 +25,7 @@ if [[ ! -e /dev/net/tun ]]; then
 fi
 
 if grep -qs "CentOS release 5" "/etc/redhat-release"; then
-	echo "1nK-9h0st-Script | CentOS versi 5 ke bawah tidak suport di script ini!"
+	echo "1nK-9h0st-Script | CentOS 5 is too old and not supported"
 	exit 4
 fi
 if [[ -e /etc/debian_version ]]; then
@@ -77,7 +77,7 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 		echo "   2) Hapus User?"
 		echo "   3) Hapus OpenVPN?"
 		echo "   4) Keluar"
-		read -p "1nK-9h0st-Script | Pilih salah satu [1-4]: " option
+		read -p "Pilih salah satu [1-4]: " option
 		case $option in
 			1) 
 			echo ""
@@ -98,7 +98,7 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 			NUMBEROFCLIENTS=$(tail -n +2 /etc/openvpn/easy-rsa/pki/index.txt | grep -c "^V")
 			if [[ "$NUMBEROFCLIENTS" = '0' ]]; then
 				echo ""
-				echo "You have no existing clients!"
+				echo "Anda tidak memiliki klien yang sudah ada!"
 				exit 6
 			fi
 			echo ""
@@ -175,7 +175,7 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 	done
 else
 	clear
-	echo 'Welcome to this quick OpenVPN "1nK-9h0st-Script" installer'
+	echo 'Welcome to this quick OpenVPN "road warrior" installer'
 	echo ""
 	# OpenVPN setup and first user creation
 	echo "1nK-9h0st-Script | Saya akan mengajukan beberapa pertanyaan sebelum penginstalan OK!"
@@ -402,6 +402,6 @@ verb 3" > /etc/openvpn/client-common.txt
 	echo ""
 	echo "1nK-9h0st-Script | Installasi selesai ^_^"
 	echo ""
-	echo "1nK-9h0st-Script | Clien yg anda gunakan dalah" ~/"$CLIENT.ovpn"
-	echo "1nK-9h0st-Script | Jika Anda ingin menambahkan lebih banyak klien, Anda hanya perlu menjalankan skrip ini lagi!"
+	echo "Clien yg anda gunakan dalah" ~/"$CLIENT.ovpn"
+	echo "Jika Anda ingin menambahkan lebih banyak klien, Anda hanya perlu menjalankan skrip ini lagi!"
 fi
