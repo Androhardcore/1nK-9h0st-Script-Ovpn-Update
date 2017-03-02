@@ -5,9 +5,9 @@
 # Cara installasi
     Silahkan ikuti intruksi di bawah ini
     1. copas kode di bawah ini 
-       #wget https://raw.githubusercontent.com/Androhardcore/1nK-9h0st-Script-Ovpn-Update/master/Script-OpenVPN.sh
-    2. #chmod +x Script-OpenVPN.sh
-    3. #./Script-OpenVPN.sh
+       #wget https://raw.githubusercontent.com/Androhardcore/1nK-9h0st-Script-Ovpn-Update/master/1nK-9h0st-Script-OpenVPN.sh
+    2. #chmod +x 1nK-9h0st-Script-OpenVPN.sh
+    3. #./1nK-9h0st-Script-OpenVPN.sh
   
   kemudian ikuti intruksinya di dalam console (y)
   
