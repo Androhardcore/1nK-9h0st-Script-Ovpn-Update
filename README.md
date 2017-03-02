@@ -5,18 +5,18 @@
 # Cara installasi
     Silahkan ikuti intruksi di bawah ini
     1. copas kode di bawah ini 
-       #wget https://raw.githubusercontent.com/Androhardcore/1nK-9h0st-Script-Ovpn-Update/master/openvpn-install.sh     
-    2. #chmod +x openvpn-install.sh
-    3. #./openvpn-install.sh
+       #wget https://raw.githubusercontent.com/Androhardcore/1nK-9h0st-Script-Ovpn-Update/master/Script-OpenVPN.sh
+    2. #chmod +x Script-OpenVPN.sh
+    3. #./Script-OpenVPN.sh
   
   kemudian ikuti intruksinya di dalam console (y)
   
-  # Note: 
+  
+# Note: 
           script ini tidak suport pada OS CentOS 5 ke bawah, script ini juga suport pada
           Debian & Ubuntu (y)
    
-  # Jika ada pertanyaan silahkan kontak langsung saya >>
-  
+# Jika ada pertanyaan silahkan kontak langsung saya >>
   Facebook : www.fb.com/ahwanul.mubin
   Fp       : www.fb.me/lombokAM
   Twitter  : @leo_cules
