@@ -1,6 +1,4 @@
 #!/bin/bash
-# OpenVPN 1nK-9h0st Installer
-
 
 # Detect Debian users running the script with "sh" instead of bash
 if readlink /proc/$$/exe | grep -qs "dash"; then
