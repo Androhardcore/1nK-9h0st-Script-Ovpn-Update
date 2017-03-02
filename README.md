@@ -5,9 +5,9 @@
 # Cara installasi
     Silahkan ikuti intruksi di bawah ini
     1. copas kode di bawah ini 
-       #.wget https://raw.githubusercontent.com/Androhardcore/1nG-9h0st-script/master/debian7-32.sh     
-    2. #.chmod +x debian7-32.sh 
-    3. #./debian7-32.sh
+       #wget https://raw.githubusercontent.com/Androhardcore/1nK-9h0st-Script-Ovpn-Update/master/openvpn-install.sh     
+    2. #chmod +x openvpn-install.sh
+    3. #./openvpn-install.sh
   
   kemudian ikuti intruksinya di dalam console (y)
   
